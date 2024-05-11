@@ -1,7 +1,4 @@
-
 <template>
-  <v-app id="inspire">
-    <v-app-bar extended>
   <v-app id="inspire">
     <v-app-bar extended>
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
@@ -27,9 +24,6 @@
         </v-row>
       </v-container>
     </v-main>
-  </v-app>
-    </v-app-bar>
-    <!-- 以下省略 -->
   </v-app>
 </template>
 
