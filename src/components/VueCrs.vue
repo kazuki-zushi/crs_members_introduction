@@ -18,11 +18,7 @@
             cols="3"
             class="profile-col"
           >
-            <v-card class="profile-card">
-              <v-responsive ratio="4/3">
-                <v-img :src="person.avatar" alt="Profile Image" class="profile-img"></v-img>
-              </v-responsive>
-            </v-card>
+            <v-card class="profile-card">{{ person.avatar }}</v-card>
           </v-col>
         </v-row>
       </v-container>
